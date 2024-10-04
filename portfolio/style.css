@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    overflow-y: auto; /* Enable page scrolling */
+}
+
+.portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.left-column {
+    vertical-align: top;
+    background-color: rgb(245, 242, 245);
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding doesn't affect column width */
+}
+
+.image-container {
+    position: relative; /* Allows the name to be positioned inside the container */
+}
+
+.image-container img {
+    width: 107%; 
+    height: 100%; /* Ensure the image scales properly */
+    margin-left: -15px;
+}
+
+.name {
+    position: absolute; 
+    bottom: 10px; 
+    left: 20px; 
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.right-column {
+    vertical-align: top;
+    padding: 20px;
+    background-color: rgb(252, 250, 250);
+    border-left: 20px solid #a19ebc;
+    box-sizing: border-box; /* Ensure padding doesn't affect column width */
+    width: 70%;
+   
+}
+
+.right-column h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 9%;
+    margin-top: -4%;
+}
+
+.fro {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    font-size: 25px;
+}
+
+.jan {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -30px;
+    color: rgb(15, 77, 56);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jan span {
+    background-color: rgb(13, 134, 94);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.table1 {
+    border-bottom: 2px solid rgb(228, 218, 218);
+}
+
+.percentage{
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    margin: 20px 0;
+    height: 30px;
+    box-shadow: inset 0 0 5px #000;
+}
+.percentagenum{
+    height: 100%;
+    width: 90%; /* Adjust this percentage to simulate progress */
+    background-color: #4caf50;
+    border-radius: 25px;
+    text-align: center; /* Aligns text to center */
+    line-height: 30px; /* Makes text vertically centered */
+    color: white;
+    font-weight: bold;
+    transition: width 0.3s ease; /* Smooth transition effect */
+}
+
+
+
+.edu {
+    margin-top: 120px;
+    
+}
